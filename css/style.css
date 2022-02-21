@@ -1,0 +1,215 @@
+  @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Dongle:wght@300;400;700&family=Montserrat+Alternates:wght@300&family=Montserrat:wght@100;400;500;700&family=Nunito:wght@200;300;400;600;700&family=Oswald:wght@200;300&family=Quicksand:wght@300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Rock+3D&family=Shadows+Into+Light&display=swap");
+
+
+  body::before {
+    content: '';
+    background-color: #F1F3FF;
+    background-image: url("../image/img_car.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 42vmax;
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+
+  .custom-nav .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+  }
+
+  .custom-nav .navbar-brand span {
+    color: white;
+    font-weight: 700;
+    font-family: 'Helvetica';
+    font-size: 2rem;
+    margin-left: 0.2em;
+    text-shadow: 2px 1px black;
+  }
+
+  .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #black;
+    font-weight: 500;
+    margin-left: 2.5em;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+
+  .custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: #5CB85F;
+  }
+
+  .custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+    display: inline-block;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+  }
+
+  .custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button:hover {
+    color: black;
+    border: 1px solid #5CB85F;
+    background-color: transparent;
+  }
+
+  @media screen and (max-width: 992px) {
+    .custom-nav {
+      margin-top: 14px;
+    }
+  }
+
+  .main-section {
+    margin-top: 4rem;
+  }
+
+  .main-section h2 {
+    font-family: Helvetica;
+    font-weight: 700;
+    word-spacing: 6px;
+    font-size: 1.5  rem;
+    color: rgba(0, 0, 0, 1);
+    text-transform: inherit;
+    padding-top: 2rem;
+  }
+
+  .main-section p {
+    font-weight: 200;
+    color: rgba(0, 0, 0, 1);
+    font-size: 0.8rem;
+  }
+
+  .main-section a {
+    margin-top: 1em;
+    display: inline-block;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+
+  .main-section a:hover {
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid #5CB85F;
+    background-color: transparent;
+  }
+
+  .our-service-section  {
+    padding : 10rem;
+  }
+
+  .our-service-section img {
+    width : 27vmax;
+    height: 25vmax;  
+  }
+
+  .our-service-section h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 1);
+  }
+
+  .our-service-section p {
+  font-weight: 200;
+  font-size: 0.9rem;
+  }
+
+  .our-service-section img .ceklis{
+    width: 10px;
+    height: 10px;
+  }
+
+  .why-us-section .section-why {
+    padding-left: 7rem;
+  }
+
+
+  .why-us-section h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 1);
+  }
+
+  .why-us-section p {
+  font-weight: 200;
+  font-size: 1rem;
+  }
+
+  .why-us-section .custom-why-us h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  }
+
+  .why-us-section .custom-why-us p {
+  font-weight: 200;
+  font-size: 1rem;
+  }
+
+  .testimonial-section h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 6rem;
+  }
+
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .main-menu {
+      margin-top: 1.5em;
+    }
+    .our-service-section img{
+      margin: auto;
+    }
+
+    .our-service-section h3, p{
+      display: flex-start;
+    }
+  @media screen and (max-width: 768px) {
+    .main-menu {
+      margin-top: -2.5em;
+    }
+    .our-service-section img{
+      margin: auto;
+      padding-top: 10px
+    }
+
+    .our-service-section h3, p{
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .main-menu {
+      margin-left: -1.3em;
+      margin-top: 6em;
+      text-align: center;
+      margin: 2rem;
+    }
+
+    .main-section h2, p {
+      text-shadow: 1px 0px white;
+    }
+
+    .main-section a {
+      display : block;
+      text-align: center;
+      margin: 5rem;
+    }
+  }
