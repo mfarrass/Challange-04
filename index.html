@@ -1,134 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challage-01 | Chapter-01</title>
-    
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Challage-01 | Muhamad Farras</title>
+      
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <!--  ////////////////////////////////////////////////////////  -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-     <!-- My Css -->
-    <link rel="stylesheet" href="css/style.css">
+      <!-- My Css -->
+      <link rel="stylesheet" href="css/style.css">
 
-    <!-- fontawesome -->
-    <link href="fontawesome/css/all.css" rel="stylesheet">
+      <!-- fontawesome -->
+      <link href="fontawesome/css/all.css" rel="stylesheet">
 
-    <!-- template -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+      <!-- Testimoni script -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+      <!--  ////////////////////////////////////////////////////////  -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <!--  ////////////////////////////////////////////////////////  -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
-</head>
-<body>
-    <div class="container my-4 main-menu">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav bg-transparent">
-  <a class="navbar-brand" href="#">
-      <img src="image/rash-logo.png" alt="Rash Logo">
-      <span>Binar</span> 
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Our Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Why Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link sign-up-button" href="#">Register</a>
-          </li>
-    </ul>
+      
+      <!-- Animated Aos -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body id="our-services">
+    <!-- Navbar -->
+      <div data-aos="fade-down" data-aos-duration="2000" class="container my-4 main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav bg-transparent">
+    <a class="navbar-brand" href="#">
+        <img src="image/rash-logo.png" alt="Rash Logo">
+        <span>Binar</span> 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--  ////////////////////////////////////////////////////////  -->
+          <li class="nav-item active">
+              <a class="nav-link" href="#our-services">Our Services</a>
+            </li>
+            <!--  ////////////////////////////////////////////////////////  -->
+            <li class="nav-item">
+              <a class="nav-link" href="#why-us-section">Why Us</a>
+            </li>
+            <!--  ////////////////////////////////////////////////////////  -->
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial-section">Testimonial</a>
+            </li>
+            <!--  ////////////////////////////////////////////////////////  -->
+            <li class="nav-item">
+              <a class="nav-link" href="#frequently-asked">FAQ</a>
+            </li>
+            <!--  ////////////////////////////////////////////////////////  -->
+            <li class="nav-item">
+              <a class="nav-link sign-up-button" href="#">Register</a>
+            </li>
+            <!--  ////////////////////////////////////////////////////////  -->
+      </ul>
+    </div>
+  </nav>
   </div>
-</nav>
-</div>
+  <!-- End Of Navbar -->
 
-<div class="container">
-    <div class="row main-section">
-      <div class="col-12 col-md-6">
-        <h2>Sewa & Rental Mobil Terbaik di kawasan Depok</h2>
-        <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-        <a href="#">Mulai Sewa Mobil</a>
+  <!-- Main Section -->
+  <div data-aos="fade-up-right" data-aos-duration="2000" class="container">
+      <div class="row main-section">
+        <div class="col-6">
+          <!--  ////////////////////////////////////////////////////////  -->
+          <h2>Sewa & Rental Mobil Terbaik di kawasan Depok</h2>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+          <a href="#">Mulai Sewa Mobil</a>
+        </div>
+      </div>
+    </div>    
+    <!-- End Of Main Section -->
+
+
+  <!-- Our Service Section -->
+  <section id="our-service-section">
+  <div data-aos="fade-up" data-aos-duration="3000" class="container pt-5">
+              <div class="row our-service-section">
+                  <img src="image/img_service.png" alt="">
+              <div class="col-lg-6 service-section">
+                  <h3>Best Car Rental for any kind of trip in Depok!</h3>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <p>Sewa mobil di Depok bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Dengan Supir di Bali 12 Jam.</p>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Jangka Panjang Bulanan</p>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Gratis Antar - Jemput Mobil di Bandara</p>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Layanan Airport Transfer / Drop In Out</p>
+              </div>
+          </div>
+      </div> 
+    </section>
+      <!-- End Of Service Section -->
+
+      <!-- Why Of Section -->
+  <section id="why-us-section">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-center" class="why-us-section">
+              <h3 class="section-why"> Why Us? </h3>
+              <p class="section-why"> Mengapa harus pilih Binar Car Rental? </p>
+      <div class="container mt-5">
+          <div class="row justify-content-md-center">
+          <!--  ////////////////////////////////////////////////////////  -->
+              <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 justify-content-center border custom-why-us">
+                    <img src="image/icon_complete.png" alt="">
+                    <h3>Mobil Lengkap</h3>
+                    <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
+             </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+            <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
+                   <img src="image/icon_price.png" alt="">
+                   <h3>Harga Murah</h3>
+                   <p>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
+            </div>
+        <!--  ////////////////////////////////////////////////////////  -->
+            <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
+                  <img src="image/icon_24hrs.png" alt="">
+                  <h3>Layanan 24 Jam</h3>
+                  <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
+            </div>
+        <!--  ////////////////////////////////////////////////////////  -->
+            <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
+                  <img src="image/icon_professional.png" alt="">
+                  <h3>Sopir Profesional</h3>
+                  <p>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
+           </div>
+        </div>
       </div>
     </div>
-  </div>    
+  </section>
+  <!-- End Of Why Us Section -->
 
+    <!-- Testimoni -->
+    <section id="testimonial-section">
+    <div data-aos="flip-down" class="mt-5 testimonial-section">
+      <h3 class="text-center">Testimonial</h3>
+      <p class="mt-4 text-center">Berbagai review positif dari para pelanggan kami</p>
 
-
-
-
-<div class="container pt-5">
-            <div class="row our-service-section">
-                <img src="image/img_service.png" alt="">
-            <div class="col-md-6">
-                <h3 class="ml-5 py-lg-3">Best Car Rental for any kind of trip in Depok!</h3>
-                <p class="ml-5 pb-3">Sewa mobil di Depok bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
-                <p class="ml-5 px-4"><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Dengan Supir di Bali 12 Jam.</p>
-                <p class="ml-5 px-4"><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
-                <p class="ml-5 px-4"><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Jangka Panjang Bulanan</p>
-                <p class="ml-5 px-4"><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Gratis Antar - Jemput Mobil di Bandara</p>
-                <p class="ml-5 px-4"><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Layanan Airport Transfer / Drop In Out</p>
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <!--  ////////////////////////////////////////////////////////  -->
+                    <div class="align-items-center testimonial-item equal-height style-6" style="height: 254px;">
+                      <div class="cell-right">
+                          <img src="image/img_3.png" alt="img 1">
+                          </div>
+                      <div class="cell-left">
+                        <img src="image/Rate.png" alt="rate">
+                      </div>
+                      <div class="ml-2 quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                      </div>
+                      <div class="testimonial-names">Farras 21, Cileungsi
+                  </div>
+                </div>
+                    <!--  ////////////////////////////////////////////////////////  -->
+                    <div class="align-items-center testimonial-item equal-height style-6" style="height: 254px;">
+                      <div class="cell-right">
+                          <img src="image/img_1.png" alt="img 1">
+                          </div>
+                      <div class="cell-left">
+                        <img src="image/Rate.png" alt="rate">
+                      </div>
+                      <div class="ml-2 quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                      </div>
+                      <div class="testimonial-names">John Dee 32, Bromo
+                      </div>
+                  </div>
+                    <!--  ////////////////////////////////////////////////////////  -->
+                    <div class="align-items-center testimonial-item equal-height style-6" style="height: 254px;">
+                      <div class="cell-right">
+                          <img src="image/img_2.png" alt="img 1">
+                            </div>
+                      <div class="cell-left">
+                          <img src="image/Rate.png" alt="rate">
+                      </div>
+                      <div class="ml-2 quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                      </div>
+                        <div class="testimonial-names">Nichole 25, Ciseeng
+                      </div>
+                  </div>
+                </div>
             </div>
         </div>
-    </div> 
+    </div>
+  </section>
+      <!-- end of Testimoni -->
+
+      <!-- Getting Started Section -->
+  <section id="getting-started-section">
+      <div data-aos="flip-down" class="py-5 mt-5 container-fluid col-md-10 getting-started-section">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Sewa Mobil di Depok Sekarang</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <a class="button-started" href="#">Mulai Sewa Mobil</a>
+          </div>
+        </div>
+      </div>
+  </section>
+    <!-- End Of Getting Started Section -->
+    
+
+
+    <!-- - Frequently Asked Question Section -->
+    <section id="frequently-asked">
+      <div data-aos="fade-left" data-aos-duration="3000" class="container">
+        <div class="row">
+        <div class="col-md-4 ask">
+            <h3>Frequently Asked Question</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+  <!--  ////////////////////////////////////////////////////////  -->
+    <div class="col-md-4 offset-lg-2 d-grid gap-2 col-4 question">
+        <div class="btn-group py-2">
+          <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          Apa saja syarat yang dibutuhkan?
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+              <li><button class="dropdown-item" type="button">Action</button></li>
+              <li><button class="dropdown-item" type="button">Another action</button></li>
+              <li><button class="dropdown-item" type="button">Something else here</button></li>
+          </ul>
+      </div>
+  <!--  ////////////////////////////////////////////////////////  -->
+      <div class="btn-group py-2">
+        <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          Berapa hari minimal sewa mobil lepas kunci?
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><button class="dropdown-item" type="button">Action</button></li>
+            <li><button class="dropdown-item" type="button">Another action</button></li>
+            <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+      </div>
+  <!--  ////////////////////////////////////////////////////////  -->
+      <div class="btn-group py-2">
+        <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          Berapa hari sebelumnya sebaiknya booking sewa mobil?
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><button class="dropdown-item" type="button">Action</button></li>
+            <li><button class="dropdown-item" type="button">Another action</button></li>
+            <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+      </div>
+  <!--  ////////////////////////////////////////////////////////  -->
+      <div class="btn-group py-2">
+        <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          Apakah Ada biaya antar-jemput?
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><button class="dropdown-item" type="button">Action</button></li>
+            <li><button class="dropdown-item" type="button">Another action</button></li>
+            <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+      </div>
+  <!--  ////////////////////////////////////////////////////////  -->
+      <div class="btn-group py-2">
+        <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          Bagaimana jika terjadi kecelakaan
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><button class="dropdown-item" type="button">Action</button></li>
+            <li><button class="dropdown-item" type="button">Another action</button></li>
+            <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+    <!-- End Of Frequently Asked Question Section -->
+
+    <!-- Footer Section -->
+    <footer class="new_footer_area bg_color">
+      <div data-aos="fade-up" data-aos-duration="3000" class="new_footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                          <!-- <a href="#">binarcarrental@gmail.com</a> -->
+                          <p>binarcarrental@gmail.com</p>
+                          <p>081-233-334-808</p>
+                      </div>
+                  </div>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                          <ul class="list-unstyled f_list">
+                              <li><a href="#our-services">Our services</a></li>
+                              <li><a href="#why-us-section">Why Us</a></li>
+                              <li><a href="#testimonial-section">Testimonial</a></li>
+                              <li><a href="#frequently-asked">FAQ</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <p>Connect with us</p>
+                        <div class="f_social_icon">
+                          <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                          <a href="#"><i class="fa-solid fa-circle-question"></i></a>
+                      </div> 
+                      </div>
+                  </div>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget f_subscribe_two pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                          <p class="ml-5">Copyright Binar 2022</p>
+                          <button class="ml-5 btn btn_get btn_get_two" type="submit">Subscribe</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    <!-- End Of Footer Section -->
 
     
-    <div class="why-us-section">
-    <h3 class="section-why"> Why Us? </h3>
-    <p class="section-why"> Mengapa harus pilih Binar Car Rental? </p>
-  <div class="container p-2">
-      <div class="row align-items-center">
-        
-        <div class="m-3 col border p-3 custom-why-us">
-          <img src="image/icon_complete.png" alt="">
-          <h3 class="py-3">Mobil Lengkap</h3>
-          <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
-        </div>
-     
+  <!-- Script JS -->
+    <script src="js/script.js"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script defer src="fontawesome/js/all.js"></script>
+    <script src="js/script.js"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
 
-        <div class="m-3 col border p-3 custom-why-us">
-          <img src="image/icon_price.png" alt="">
-          <h3 class="py-3">Harga Murah</h3>
-          <p>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
-      </div>
-
-      <div class="m-3 col border p-3 custom-why-us">
-        <img src="image/icon_24hrs.png" alt="">
-        <h3 class="py-3">Layanan 24 Jam</h3>
-        <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
-      </div>
-
-      <div class="m-3 col border p-3 custom-why-us">
-        <img src="image/icon_professional.png" alt="">
-        <h3 class="py-3">Sopir Profesional</h3>
-        <p>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
-      </div>
-      
-     </div>
-    </div>
-  </div>
-
-  <div class="testimonial-section">
-    <h3 class="text-center">Testimonial</h3>
-    <p class="mt-4 text-center">Berbagai review positif dari para pelanggan kami</p>
- 
-
-
-  
-
-  <script src="js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <script defer src="fontawesome/js/all.js"></script>
-  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
+    <!-- Aos For Animation Slider -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script>AOS.init();</script>
+    <!--  ////////////////////////////////////////////////////////  -->
 </body>
 </html>
+
+
