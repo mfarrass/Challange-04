@@ -113,11 +113,11 @@ body::before {
 }
 
 .our-service-section img {
-  width : 27vmax;
-  height: 25vmax;  
+  width : 380px;
+  height: 350px;  
 }
 
-.our-service-section h3 {
+/* .our-service-section h3 {
 font-weight: 700;
 font-size: 1.2rem;
 color: rgba(0, 0, 0, 1);
@@ -126,12 +126,8 @@ color: rgba(0, 0, 0, 1);
 .our-service-section .service-section p {
 font-weight: 200;
 font-size: 0.9rem;
-}
+} */
 
-.our-service-section img .ceklis{
-  width: 10px;
-  height: 10px;
-}
 /*************Our Service End*****************/
 
 
@@ -452,7 +448,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   .main-menu {
     margin-top: 1.5em;
   }
-  .our-service-section img{
+  
+  /* .our-service-section img{
     margin: auto;
     margin-bottom: 10rem;
   }
@@ -464,22 +461,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   .our-service-section p {
     margin-left: 2rem;
     font-size: 0.7rem;
-  }
+  } */
 
   .new_footer_area .new_footer_top .social-widget .f_social_icon {
     display: flex;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .main-menu {
     margin-top: -2.5em;
   }
-
-  .our-service-section .service-section h3 {
-    padding-bottom: 220px;
-  }
-
+  
   .all-button .btn-group {
     padding-left: 5rem;
   }
@@ -503,6 +496,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     font-size: 14px;
     font-weight: bold;
   }
+
+  .our-service-section img{
+    widht: 120px;
+    height: 160px;
+    padding-bottom: 20px;
+  }
+
+  .our-service-section {
+    text-align: center;
+    algin-items :center;
+  }
+
 
   .new_footer_top {
     text-align: center;
@@ -530,22 +535,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     font-weight: bold;
     padding: 5px;
   }
-  
-  
-  .our-service-section img{
-    width: 22vmax;
-    height: 20vmax;
-  }
-
-  .our-service-section h3 {
-    text-align: center;
-    margin: 2rem -7rem;
-  } 
-  
-  .our-service-section p {
-    text-align: center;
-    margin: 2rem -10rem;
-  }
 }
 
 @media screen and (max-width: 375px) {
@@ -555,28 +544,28 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
   .main-section p {
     text-align: start;
-    padding-top: 15px;
     font-size: 0.9rem;
   }
 
+  
   .main-section a {
     font-size: 11px;
   } 
   
+  
+  .why-us-section .custom-why-us p {
+    text-align: start;
+  }
+
   .our-service-section img{
     display: none;
   }
 
-  .why-us-section .custom-why-us p {
-    text-align: start;
+  .service-section{
+    display: wrap;
+    flex-grow: 8;
   }
-  
-  
-  .our-service-section h3, p {
-    text-align: center;
-    font-size: 1rem;
-  } 
-  
+
   .ask h3, p {
     text-align: center;
   }
@@ -599,4 +588,5 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   }
 }
   
+
 
