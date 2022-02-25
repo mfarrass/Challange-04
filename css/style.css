@@ -17,11 +17,13 @@ body::before {
 }
 
 /*************Costum Nav*****************/
-.custom-nav .navbar-brand img {
-  width: 30px;
-  height: 30px;
-  margin-top: -4px;
+.custom-nav .button-nav {
+  display: inline-block;
+  background-color: #0D28A6;
+  padding: 10px 30px;
+  text-decoration: none;
 }
+
 
 .custom-nav .navbar-brand span {
   color: white;
@@ -32,10 +34,12 @@ body::before {
   text-shadow: 2px 1px black;
 }
 
+
 .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
   color: black;
   font-weight: 500;
   margin-left: 2.5em;
+  border-radius: 10px;
   -webkit-transition: 0.3s color ease;
   transition: 0.3s color ease;
   border: 1px solid transparent;
@@ -51,9 +55,8 @@ body::before {
 
 .custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
   display: inline-block;
-  color: white;
+
   background-color: #5CB85F;
-  border-radius: 10px;
   padding: 0.5em 1.5em;
   text-decoration: none;
 }
@@ -281,35 +284,15 @@ font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
-/* .new_footer_top .social-widget p {
-margin-right: -50px;
-} */
-
-/* .new_footer_top .company_widget a {
-  text-decoration: none;
-  color: black;
-} */
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
-  border-width: 1px;
   margin-top: 20px;
 }
 
 .btn_get_two:hover {
-  background: transparent;
-  color: #5e2ced;
-}
-.btn_get:hover {
-  color: #fff;
-  background: #6754e2;
-  border-color: #6754e2;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  display: inline-block;
+  background-color: #0D28A6;
   text-decoration: none;
-  outline: none;
 }
 
 
@@ -337,6 +320,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 24px;
   margin-left: -10px;
 }
+
 .f_social_icon a {
   width: 50px;
   height: 45px;
@@ -372,6 +356,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_get_two {
   -webkit-box-shadow: none;
   box-shadow: none;
+  width: 100px;
+  height: 34px;
+  left: 873px;
+  top: 36px;
   background: #0D28A6;
   border-color: #0D28A6;
   color: #fff;
@@ -449,20 +437,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     margin-top: 1.5em;
   }
   
-  /* .our-service-section img{
-    margin: auto;
-    margin-bottom: 10rem;
-  }
-
-  .our-service-section h3 {
-    display: flex-end;
-    margin-left: 2rem;
-  }
-  .our-service-section p {
-    margin-left: 2rem;
-    font-size: 0.7rem;
-  } */
-
   .new_footer_area .new_footer_top .social-widget .f_social_icon {
     display: flex;
   }
