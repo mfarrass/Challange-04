@@ -22,6 +22,7 @@ body::before {
   background-color: #0D28A6;
   padding: 10px 30px;
   text-decoration: none;
+  position: absolute;
 }
 
 
@@ -111,8 +112,12 @@ body::before {
 
 
 /*************Our Service*****************/
-.our-service-section  {
+.our-service-section {
   padding : 10rem;
+}
+
+.service-section {
+  text-align: start;
 }
 
 .our-service-section img {
@@ -429,6 +434,18 @@ font-size: 1.5rem;
   .why-us-section .custom-why-us p {
     margin-right: 5px;
   }
+
+  .our-service-section img{
+    widht: 50%;
+    height: 60%;
+    padding-bottom: 20px;
+  }
+
+  .our-service-section {
+    text-align: center;
+    algin-items :center;
+  }
+
   .why-us-section .section-why {
     text-align: center;
     margin-right: 100px;
@@ -443,6 +460,13 @@ font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
+  .custom-nav .button-nav {
+    display: inline-block;
+    background-color: #0D28A6;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+
   .main-menu {
     margin-top: -2.5em;
   }
@@ -466,22 +490,14 @@ font-size: 1.5rem;
   }
 
   .main-section a {
-    font-family: 'Quicksand';
+    font-family: 'roboto';
     font-size: 14px;
     font-weight: bold;
   }
 
-  .our-service-section img{
-    widht: 120px;
-    height: 160px;
-    padding-bottom: 20px;
+  .testimonial-names {
+    display: block;
   }
-
-  .our-service-section {
-    text-align: center;
-    algin-items :center;
-  }
-
 
   .new_footer_top {
     text-align: center;
@@ -511,7 +527,31 @@ font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
+  .new_footer_area {
+    margin-right: 40px;
+  }
+  .our-service-section h3{
+    font-size: 25px;
+  }
+
+  .cell-right {
+    display: none;
+  } 
+
+  .cell-left {
+    margin-left: 28px;
+    display: block;
+  }
+
+   .testimonial-names {
+    margin-left: 28px;
+    display: block;
+  }
+}
+
+
+/* @media screen and (max-width: 375px) {
   .main-section h2 {
     font-size: 1.2rem;
   }
@@ -560,7 +600,7 @@ font-size: 1.5rem;
   .new_footer_area .new_footer_top .company_widget p {
         justify-content: center;
   }
-}
+} 
   
 
 
