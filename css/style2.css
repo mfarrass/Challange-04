@@ -4,12 +4,11 @@
 body::before {
   content: '';
   background-color: #F1F3FF;
-  background-image: url("../image/img_car.png");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 42vmax;
   position: absolute;
-  height: 500px;
+  height: 270px;
   top: 0;
   left: 0;
   right: 0;
@@ -109,11 +108,37 @@ body::before {
 }
 /*************Main Section End*****************/
 
-/* Search Menu */
+
+
+/*************Pembayaran*****************/
+
+.pembayaran {
+  position: relative;
+  z-index: 999;
+  margin-bottom: -60px;
+  padding: 20px;
+}
+
+
+
+
+/*************End Pembayaran*****************/
+
+
+
+
+
+
+
+
+
+/*************Search Menu*****************/
+
+
 
   .search-menu {
-    border: 3px solid #C1C1C1;
-    margin-top: 120px;
+    border: 2px solid #C1C1C1;
+    margin-top: 50px;
     border-radius: 10px;
     position: relative;
     z-index: 9999;
@@ -123,6 +148,7 @@ body::before {
   .search-menu .gap-search {
     padding-left: 40px;
   }
+
 
   label {
     display: block;
@@ -134,7 +160,8 @@ label {
     margin: .4rem 0;
 }
 
-/* End Of Search Menu */
+/*************End Search Menu*****************/
+
 
 
 

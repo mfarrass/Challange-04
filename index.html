@@ -3,7 +3,7 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Challange-01 | Muhamad Farras</title>
+      <title>Cari Mobil</title>
       
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -31,7 +31,7 @@
   </head>
   <body id="our-services">
     <!-- Navbar -->
-      <div data-aos="fade-down" data-aos-duration="2000" class="container my-4 main-menu">
+      <div class="container my-4 main-menu">
       <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav bg-transparent">
     <a class="navbar-brand" href="#">
       <a href="#" class="button-nav"></a>
@@ -68,227 +68,94 @@
   </div>
   <!-- End Of Navbar -->
 
+
   <!-- Main Section -->
-  <div data-aos="fade-up-right" data-aos-duration="2000" class="container">
+  <div class="container">
       <div class="row main-section">
         <div class="col-6">
           <!--  ////////////////////////////////////////////////////////  -->
-          <h2>Sewa & Rental Mobil Terbaik di kawasan Depok</h2>
+          <h2>Sewa & Rental Mobil Terbaik Di Kawasan Depok</h2>
           <!--  ////////////////////////////////////////////////////////  -->
           <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-          <a href="#">Mulai Sewa Mobil</a>
+          <!-- <a href="#">Mulai Sewa Mobil</a> -->
         </div>
       </div>
     </div>    
     <!-- End Of Main Section -->
 
-
-  <!-- Our Service Section -->
-  <section id="our-service-section">
-  <div data-aos="fade-up" data-aos-duration="3000" class="container pt-5">
-              <div class="d-flex .flex-sm-wrap row justify-content-md-center our-service-section">
-                  <img src="image/img_service.png" class="img-fluid col-md-5" alt="">
-              <div class="col-lg-6 col-md-10 col-sm-12 service-section p-md-3">
-                  <h3>Best Car Rental for any kind of trip in Depok!</h3>
-                  <!--  ////////////////////////////////////////////////////////  -->
-                  <p>Sewa mobil di Depok bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
-                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Dengan Supir di Bali 12 Jam.</p>
-                  <!--  ////////////////////////////////////////////////////////  -->
-                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
-                  <!--  ////////////////////////////////////////////////////////  -->
-                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Sewa Mobil Jangka Panjang Bulanan</p>
-                  <!--  ////////////////////////////////////////////////////////  -->
-                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Gratis Antar - Jemput Mobil di Bandara</p>
-                  <!--  ////////////////////////////////////////////////////////  -->
-                  <p><i class="fa-regular fa-circle-check pr-1 fa-xl"></i> Layanan Airport Transfer / Drop In Out</p>
-              </div>
-          </div>
-      </div> 
-    </section>
-      <!-- End Of Service Section -->
-
-      <!-- Why Of Section -->
-  <section id="why-us-section">
-      <div data-aos="fade-up"  class="why-us-section">
-              <h3 class="section-why text-center"> Why Us? </h3>
-              <p class="section-why text-center"> Mengapa harus pilih Binar Car Rental? </p>
-      <div class="container mt-5">
-          <div class="row justify-content-center">
-          <!--  ////////////////////////////////////////////////////////  -->
-              <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
-                    <img src="image/icon_complete.png" alt="">
-                    <h3>Mobil Lengkap</h3>
-                    <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
-             </div>
-          <!--  ////////////////////////////////////////////////////////  -->
-            <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
-                   <img src="image/icon_price.png" alt="">
-                   <h3>Harga Murah</h3>
-                   <p>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
+    <!-- Search Menu -->
+    <div class="container">
+  <div class="container search-menu">
+      <div class="container row pt-3">
+        <div class="col-12 gap-search">
+          <form action="#" class="row">
+            <div class="col-lg-3">
+              <div class="form-group text-black-50">
+              <label for="start">Tipe Driver</label>
+              <button class="text-start btn btn-outline-secondary form-group col-lg-12" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              Pilih Tipe Driver<i class="fa-solid fa-angle-down float-end mt-1"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="dropdown-item" type="button">Dengan Sopir</button></li>
+                <li><button class="dropdown-item" type="button">Tanpa Sopir (Lepas Kunci)</button></li>
+              </ul>
             </div>
-        <!--  ////////////////////////////////////////////////////////  -->
-            <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
-                  <img src="image/icon_24hrs.png" alt="">
-                  <h3>Layanan 24 Jam</h3>
-                  <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
-            </div>
-        <!--  ////////////////////////////////////////////////////////  -->
-            <div class="m-3 col-xl-2 col-lg-6 col-sm-8 col-9 border custom-why-us">
-                  <img src="image/icon_professional.png" alt="">
-                  <h3>Sopir Profesional</h3>
-                  <p>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
-           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Of Why Us Section -->
-
-    <!-- Testimoni -->
-    <section id="testimonial-section">
-    <div data-aos="flip-down" class="mt-5 testimonial-section">
-      <h3 class="text-center">Testimonial</h3>
-      <p class="mt-4 text-center">Berbagai review positif dari para pelanggan kami</p>
-
-      <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="testimonial-slider" class="owl-carousel">
-                    <!--  ////////////////////////////////////////////////////////  -->
-                    <div class="align-items-center testimonial-item equal-height style-6" style="height: 254px;">
-                      <div class="cell-right">
-                          <img src="image/img_3.png" alt="img 1">
-                          </div>
-                      <div class="cell-left">
-                          <img src="image/Rate.png" alt="rate">
-                          </div>
-                      <div class="ml-2 quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
-                      </div>
-                      <div class="testimonial-names">Farras 21, Cileungsi
-                      </div>
-                      </div>
-                    <!--  ////////////////////////////////////////////////////////  -->
-                    <div class="align-items-center testimonial-item equal-height style-6" style="height: 254px;">
-                      <div class="cell-right">
-                          <img src="image/img_1.png" alt="img 1">
-                          </div>
-                      <div class="cell-left">
-                        <img src="image/Rate.png" alt="rate">
-                      </div>
-                      <div class="ml-2 quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
-                      </div>
-                      <div class="testimonial-names">John Dee 32, Bromo
-                      </div>
-                  </div>
-                    <!--  ////////////////////////////////////////////////////////  -->
-                    <div class="align-items-center testimonial-item equal-height style-6" style="height: 254px;">
-                      <div class="cell-right">
-                            <img src="image/img_2.png" alt="img 1">
-                          </div>
-                      <div class="cell-left">
-                          <img src="image/Rate.png" alt="rate">
-                      </div>
-                          <div class="ml-2 quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
-                         </div>
-                        <div class="testimonial-names">Nichole 25, Ciseeng
-                      </div>
-                  </div>
+            <div class="col-lg-2 col-md-12">
+                <div class="form-group text-black-50">
+                  <label for="start">Tanggal</label>
+                  <input type="date" id="start" name="trip-start"
+                  value="2022-07-22" class="date form-control btn-outline-secondary col-lg-12" min="2018-01-01" max="2023-12-31">
                 </div>
-            </div>
+            </div>           
+        <div class="col-lg-3 col-md-12">
+          <div class="form-group text-black-50">
+          <label for="start">Waktu Jemput/Ambil</label>
+          <button class="text-start btn btn-outline-secondary form-group col-lg-12" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+          Pilih Waktu<i class="fa-regular fa-clock float-end d-flex mt-1"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="text-start dropdown-item" type="button">08.00<span class="float-end">WIB</span></button></li>
+            <li><button class="dropdown-item" type="button">09.00<span class="float-end">WIB</span></button></li>
+            <li><button class="dropdown-item" type="button">10.00<span class="float-end">WIB</span></button></li>
+            <li><button class="dropdown-item" type="button">11.00<span class="float-end">WIB</span></button></li>
+            <li><button class="dropdown-item" type="button">12.00<span class="float-end">WIB</span></button></li>
+          </ul>
         </div>
     </div>
-  </section>
-      <!-- end of Testimoni -->
-
-      <!-- Getting Started Section -->
-  <section id="getting-started-section">
-      <div data-aos="flip-down" class="py-5 mt-5 container-fluid col-md-10 getting-started-section">
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title">Sewa Mobil di Depok Sekarang</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <a class="button-started" href="#">Mulai Sewa Mobil</a>
-          </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="form-group text-black-50">
+          <label for="start">Jumlah Penumpang (optional)</label>
+          <button class="text-start btn btn-outline-secondary form-group col-lg-12" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+          Jumlah Penumpang<i class="fa-solid fa-user-group float-end mt-1"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button">1 - 2</button></li>
+            <li><button class="dropdown-item" type="button">3 - 4</button></li>
+            <li><button class="dropdown-item" type="button">4 - 6</button></li>
+          </ul>
+        </div>
+    </div>
+    <div class="col-lg-1 col-md-12">
+      <div class="mt-4">
+      <button class="btn-submit-form btn btn-success mt-2" type="submit">Search</button>
+    </div>
+  </div>
+  </div>
+          </form>
         </div>
       </div>
-  </section>
-    <!-- End Of Getting Started Section -->
-    
+  </div>
+  </div>
+</div>
+
+ <!-- End Of Search Menu -->
 
 
-    <!-- - Frequently Asked Question Section -->
-    <section id="frequently-asked">
-      <div data-aos="fade-left" data-aos-duration="3000" class="container">
-         <div class="row">
-          <div class="col-md-4 ask">
-              <h3>Frequently Asked Question</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </div>
-  <!--  ////////////////////////////////////////////////////////  -->
-    <div class="col-md-4 offset-lg-2 d-grid gap-2 col-4 question">
-          <div class="btn-group py-2">
-             <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                    Apa saja syarat yang dibutuhkan?
-             </button>
-          <ul class="dropdown-menu dropdown-menu-lg-end">
-                <li><button class="dropdown-item" type="button">Action</button></li>
-                <li><button class="dropdown-item" type="button">Another action</button></li>
-                <li><button class="dropdown-item" type="button">Something else here</button></li>
-          </ul>
-      </div>
-  <!--  ////////////////////////////////////////////////////////  -->
-      <div class="btn-group py-2">
-        <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-          Berapa hari minimal sewa mobil lepas kunci?
-        </button>
-        <ul class="dropdown-menu dropdown-menu-lg-end">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
-        </ul>
-      </div>
-  <!--  ////////////////////////////////////////////////////////  -->
-      <div class="btn-group py-2">
-            <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-              Berapa hari sebelumnya sebaiknya booking sewa mobil?
-            </button>
-            <ul class="dropdown-menu dropdown-menu-lg-end">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-        </ul>
-      </div>
-  <!--  ////////////////////////////////////////////////////////  -->
-      <div class="btn-group py-2">
-           <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-              Apakah Ada biaya antar-jemput?
-           </button>
-           <ul class="dropdown-menu dropdown-menu-lg-end">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
-          </ul>
-      </div>
-  <!--  ////////////////////////////////////////////////////////  -->
-      <div class="btn-group py-2">
-            <button type="button" class="btn btn-outline-dark dropdown-toggle text-start" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-            Bagaimana jika terjadi kecelakaan
-            </button>
-         <ul class="dropdown-menu dropdown-menu-lg-end">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
-          </ul>
-            </div>
-          </div>
-      </div>
-    </div>
-    </section>
-    <!-- End Of Frequently Asked Question Section -->
 
     <!-- Footer Section -->
     <footer class="new_footer_area bg_color">
-      <div data-aos="fade-up" data-aos-duration="3000" class="new_footer_top">
+      <div class="new_footer_top">
           <div class="container">
               <div class="row">
                   <div class="col-lg-3 col-md-6">
@@ -348,6 +215,7 @@
 
     <!-- Aos For Animation Slider -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <!--  ////////////////////////////////////////////////////////  -->
     <script>AOS.init();</script>
     <!--  ////////////////////////////////////////////////////////  -->

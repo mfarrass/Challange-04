@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Detail Paket Sewa</title>
+      
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <!--  ////////////////////////////////////////////////////////  -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <!-- My Css -->
+      <link rel="stylesheet" href="css/style2.css">
+
+      <!-- fontawesome -->
+      <link href="fontawesome/css/all.css" rel="stylesheet">
+
+      <!-- Testimoni script -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+      <!--  ////////////////////////////////////////////////////////  -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <!--  ////////////////////////////////////////////////////////  -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+      
+      <!-- Animation Slider Aos -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body id="our-services">
+  <!-- Navbar -->
+  <div class="container my-4 main-menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav bg-transparent">
+  <a class="navbar-brand" href="#">
+    <a href="#" class="button-nav"></a>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <!--  ////////////////////////////////////////////////////////  -->
+        <li class="nav-item active">
+            <a class="nav-link" href="#our-services">Our Services</a>
+          </li>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <li class="nav-item">
+            <a class="nav-link" href="#why-us-section">Why Us</a>
+          </li>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial-section">Testimonial</a>
+          </li>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <li class="nav-item">
+            <a class="nav-link" href="#frequently-asked">FAQ</a>
+          </li>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <li class="nav-item">
+            <a class="nav-link sign-up-button" href="#">Register</a>
+          </li>
+          <!--  ////////////////////////////////////////////////////////  -->
+    </ul>
+  </div>
+</nav>
+</div>
+<!-- End Of Navbar -->
+
+    <!-- Search Menu -->
+    <div class="container-fluid p-5">
+      <div class="container search-menu">
+          <div class="container search-menu-control row pt-3">
+            <div class="col-12">
+              <form action="#" class="row">
+                <div class="col-lg-3">
+                  <div class="form-group text-black-50">
+                  <label for="start">Tipe Driver</label>
+                  <button class="text-start btn btn-outline-secondary form-group col-lg-12" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pilih Tipe Driver<i class="fa-solid fa-angle-down float-end mt-1"></i>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Dengan Sopir</button></li>
+                    <li><button class="dropdown-item" type="button">Tanpa Sopir (Lepas Kunci)</button></li>
+                  </ul>
+                </div>
+            </div>
+                <div class="col-lg-2 col-md-12">
+                    <div class="form-group text-black-50">
+                      <label for="start">Tanggal</label>
+                      <input type="date" id="start" name="trip-start"
+                      value="2022-07-22" class="date form-control btn-outline-secondary col-lg-12" min="2018-01-01" max="2023-12-31">
+                    </div>
+                </div>           
+            <div class="col-lg-3 col-md-12">
+              <div class="form-group text-black-50">
+              <label for="start">Waktu Jemput/Ambil</label>
+              <button class="text-start btn btn-outline-secondary form-group col-lg-12" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              Pilih Waktu<i class="fa-regular fa-clock float-end d-flex mt-1"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="text-start dropdown-item" type="button">08.00<span class="float-end">WIB</span></button></li>
+                <li><button class="dropdown-item" type="button">09.00<span class="float-end">WIB</span></button></li>
+                <li><button class="dropdown-item" type="button">10.00<span class="float-end">WIB</span></button></li>
+                <li><button class="dropdown-item" type="button">11.00<span class="float-end">WIB</span></button></li>
+                <li><button class="dropdown-item" type="button">12.00<span class="float-end">WIB</span></button></li>
+              </ul>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="form-group text-black-50">
+              <label for="start">Jumlah Penumpang (optional)</label>
+              <button class="text-start btn btn-outline-secondary form-group col-lg-12" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              Jumlah Penumpang<i class="fa-solid fa-user-group float-end mt-1"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="dropdown-item" type="button">1 - 2</button></li>
+                <li><button class="dropdown-item" type="button">3 - 4</button></li>
+                <li><button class="dropdown-item" type="button">4 - 6</button></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-lg-1 col-md-12">
+          <div class="mt-4">
+          <button class="btn-submit-form btn btn-success mt-2" type="submit">Search</button>
+        </div>
+      </div>
+      </div>
+              </form>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-- End Of Search Menu -->
+
+          
+    <!-- Tentang paket -->
+<div class="container">
+<div class="row">
+  <div class="col-lg-9">
+  <div class="card" style="width: 55rem; border-radius: 10px; padding: 25px;">
+  <h6 class="font-weight-bold mb-3">Tentang Paket</h6>
+  <h6>Include</h6>
+  <ul type="disc">
+    <div class="text-black-50">
+      <li>Apa saja yang termasuk dalam paket misal durasi max 12</li>
+      <li>Sudah termasuk bensin selama 12 jam</li>
+      <li>Sudah termasuk Tiket Wisata</li>
+      <li>Sudah termasuk pajak</li>
+    </div>
+  </ul>
+  <h6>Exclude</h6>
+  <ul type="disc">
+    <div class="text-black-50">
+      <li>Tidak termasuk biaya makan sopir Rp 75.000/hari </li>
+      <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam </li>
+      <li>Tidak termasuk akomodasi penginapan</li>
+    </div>
+  </ul>
+  <h6 class="font-weight-bold">Refund, Reschedule, Overtime</h6>
+  <ul type="disc">
+    <div class="text-black-50">
+      <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+      <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam </li>
+      <li>Tidak termasuk akomodasi penginapan</li>
+      <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+      <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam </li>
+      <li>Tidak termasuk akomodasi penginapan</li>
+      <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+      <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam </li>
+      <li>Tidak termasuk akomodasi penginapan</li>
+    </div>
+  </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+      <div class="card" style="width: 25em; margin-left: -90px; border-radius: 10px;">
+        <img src="image/mobilnya.png" class="card-img-top p-5" alt="...">
+        <div class="card-body">
+                    <h5 class="card-subtitle text-dark font-weight-bold mb-2">Nama/Tipe Mobil</h5>
+                    <p class="card-text text-black-50 text-truncate mb-5"><span class="iconify" data-icon="carbon:user-multiple" style="margin-right: 5px;"></span>4 orang&emsp;<span class="iconify" data-icon="ant-design:setting-outlined" style="margin-right: 5px;"></span>Manual&emsp;<span class="iconify" data-icon="uil:calender" style="margin-right: 5px;"></span>Tahun 2020&emsp;</p>
+                    <p class="card-text">Total<span class="float-end font-weight-bold">Rp. 450.000</span></p>
+                    <div class="d-grid mt-4">
+                    <a href="#" class="btn btn-success mb-2 font-weight-bold">Lanjutkan Pembayaran</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+</div>
+</div>
+            <!-- End Mobil Card -->
+
+            <div class="mt-5 d-flex justify-content-center">
+              <a href="#" class="btn btn-success mb-2 font-weight-bold">Lanjutkan Pembayaran</a>
+            </div>
+
+
+    <!-- Footer Section -->
+    <div class="container">
+    <footer class="new_footer_area bg_color">
+      <div class="new_footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                          <!-- <a href="#">binarcarrental@gmail.com</a> -->
+                          <p>binarcarrental@gmail.com</p>
+                          <p>081-233-334-808</p>
+                      </div>
+                  </div>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                          <ul class="list-unstyled f_list">
+                              <li><a href="#our-services">Our services</a></li>
+                              <li><a href="#why-us-section">Why Us</a></li>
+                              <li><a href="#testimonial-section">Testimonial</a></li>
+                              <li><a href="#frequently-asked">FAQ</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <p>Connect with us</p>
+                        <div class="f_social_icon">
+                          <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                          <a href="#"><i class="fa-solid fa-circle-question"></i></a>
+                      </div> 
+                      </div>
+                  </div>
+                  <!--  ////////////////////////////////////////////////////////  -->
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget f_subscribe_two pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                          <p class="ml-5">Copyright Binar 2022</p>
+                          <button class="ml-5 btn btn_get btn_get_two" type="submit"></button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    <!-- End Of Footer Section -->
+
+  <!-- Script JS -->
+    <script src="js/script.js"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+    <script defer src="fontawesome/js/all.js"></script>
+    <script src="js/script.js"></script>
+    <!--  ////////////////////////////////////////////////////////  -->
+
+
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</body>
+</html>
+
+
