@@ -1,0 +1,26 @@
+/* body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #fff;
+}
+
+.app-header {
+    width: 100%;
+    height: auto;
+}
+
+.app-content {
+    padding: 50px;
+} */
+
+body::before {
+    content: '';
+    background-color: #F1F3FF;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }

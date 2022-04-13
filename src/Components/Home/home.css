@@ -1,0 +1,53 @@
+
+body::before {
+    content: '';
+    background-color: #F1F3FF;
+    background-image: url("/public/images/img_car.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 42vmax;
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+  .main_section {
+    margin-top: 3rem;
+  }
+  
+  .main_section h2 {
+    font-weight: 700;
+    word-spacing: 6px;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 2rem;
+  }
+  
+  .main_section p {
+    font-weight: 200;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1rem;
+  }
+  
+  .main_section a {
+    margin-top: 1em;
+    display: inline-block;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  
+  .main_section a:hover {
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid #5CB85F;
+    background-color: transparent;
+  }
+

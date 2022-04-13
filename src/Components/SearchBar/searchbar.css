@@ -1,0 +1,26 @@
+/* Search Menu */
+
+.search_menu {
+    border: 1px solid #C1C1C1;
+    margin-top: 120px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 9999;
+    background: #ffffff;
+  }
+  
+  .search_menu .gap_search {
+    padding-left: 40px;
+  }
+
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+/* End Of Search Menu */

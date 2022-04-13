@@ -1,0 +1,219 @@
+/*************Costum Nav*****************/
+.main_content {
+  min-height: calc( 100vh - 60px );
+  height: 1px;
+}
+
+.navbar_button {
+    display: inline-block;
+    background-color: #0D28A6;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
+  
+  .custom_nav .navbar_brand span {
+    color: white;
+    font-weight: 700;
+    font-family: 'Helvetica';
+    font-size: 2rem;
+    margin-left: 0.2em;
+    text-shadow: 2px 1px black;
+  }
+  
+  
+  .custom_nav #navbarNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 500;
+    margin-left: 2.5em;
+    border-radius: 10px;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  
+  .custom_nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: #5CB85F;
+  }
+  
+  .custom_nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+    display: inline-block;
+  
+    background-color: #5CB85F;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+  }
+  
+  .custom_nav #navbarNav .navbar-nav .nav-item .sign-up-button:hover {
+    color: black;
+    border: 1px solid #5CB85F;
+    background-color: transparent;
+  }
+
+  .main-section {
+    margin-top: 4rem;
+  }
+  
+  .main-section h2 {
+    font-weight: 700;
+    word-spacing: 6px;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 2rem;
+  }
+  
+  .main-section p {
+    font-weight: 200;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1rem;
+  }
+  
+  .main-section a {
+    margin-top: 1em;
+    display: inline-block;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  
+  .main-section a:hover {
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid #5CB85F;
+    background-color: transparent;
+  }
+  /*************Costum Nav End*****************/
+
+  /*************Footer*****************/
+
+.new_footer_top {
+    padding: 120px 0px 0px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .new_footer_area {
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+  
+  .new_footer_top .company_widget p {
+    margin-bottom: 20px;
+  }
+  
+  
+  .new_footer_top .company_widget .f_subscribe_two .btn_get {
+    margin-top: 20px;
+  }
+  
+  .btn_get_two:hover {
+    display: inline-block;
+    background-color: #0D28A6;
+    text-decoration: none;
+  }
+  
+  
+  .new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #5e2ced;
+  }
+  .new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+  }
+  .f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+  }
+  .f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+  }
+  .f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+  }
+  
+  .new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    color: white;
+    font-size: 24px;
+    margin-left: -10px;
+  }
+  
+  
+  .f_social_icon a {
+    width: 50px;
+    height: 45px;
+    background: rgba(13, 40, 166, 1);
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-left: -50px;
+  }
+  
+  .new_footer_top .f_social_icon a:hover {
+    color:white;
+    background: #ebeef5;
+  }
+  .ti-facebook:before {
+    content: "\e741";
+  }
+  .ti-twitter-alt:before {
+    content: "\e74b";
+  }
+  .ti-vimeo-alt:before {
+    content: "\e74a";
+  }
+  .ti-pinterest:before {
+    content: "\e731";
+  }
+  
+  .btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100px;
+    height: 34px;
+    left: 873px;
+    top: 36px;
+    background: #0D28A6;
+    border-color: #0D28A6;
+    color: #fff;
+  }
+  
+  .btn_get_two:hover {
+    background: transparent;
+    color: #0D28A6;
+  }
+  
+  .new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+  }
+  .new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+  }
+  .f_600 {
+    font-weight: 600;
+  }
+  .f_size_18 {
+    font-size: 18px;
+  }
+  
+  .new_footer_top .f_widget.about-widget .f_list li a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    padding-left: 40px;
+  }
+
+
+   
